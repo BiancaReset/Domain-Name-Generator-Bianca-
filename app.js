@@ -13,7 +13,7 @@ let pronoun = [
   "nobody",
   "nothing",
 ];
-let adj = [
+let adjective = [
   "small",
   "huge",
   "hilarious",
@@ -41,12 +41,12 @@ let noun = [
   "bicycle",
   "dishwasher",
 ];
-let extension = [".com", ".net", ".org", ".cl"];
+let urlExtension = [".com", ".net", ".org", ".cl"];
 for (let i = 0; i < pronoun.length; i++) {
-  for (let j = 0; j < adj.length; j++) {
+  for (let j = 0; j < adjective.length; j++) {
     for (let k = 0; k < noun.length; k++) {
-      for (let l = 0; l < extension.length; l++) {
-        console.log(`${pronoun[i]}${adj[j]}${noun[k]}${extension[l]}`);
+      for (let l = 0; l < urlExtension.length; l++) {
+        console.log(`${pronoun[i]}${adjective[j]}${noun[k]}${urlExtension[l]}`);
       }
     }
   }
